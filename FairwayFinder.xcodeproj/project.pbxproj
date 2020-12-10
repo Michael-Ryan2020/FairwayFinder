@@ -3,19 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E03DAA4E79DC9818AED4FAFF /* Pods_FairwayFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7822B6779FC963C82B1BEB5 /* Pods_FairwayFinder.framework */; };
+		E82D368D2577001D00230B62 /* UIView+addBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82D368C2577001D00230B62 /* UIView+addBorder.swift */; };
+		E82D368F2577008200230B62 /* UIBarButtonItem+hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82D368E2577008200230B62 /* UIBarButtonItem+hide.swift */; };
+		E84412DC2575739B004BC427 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84412DB2575739B004BC427 /* CourseTableViewCell.swift */; };
+		E84412DE257575E4004BC427 /* CourseReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84412DD257575E4004BC427 /* CourseReviewsViewController.swift */; };
+		E84412E025758075004BC427 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84412DF25758075004BC427 /* Course.swift */; };
+		E84412E225758CB5004BC427 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84412E125758CB5004BC427 /* UIViewController+alert.swift */; };
+		E84412E425758F3C004BC427 /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84412E325758F3C004BC427 /* Courses.swift */; };
+		E84412E625759617004BC427 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84412E525759617004BC427 /* APIKeys.swift */; };
+		E8678211257944F2006DCB23 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8678210257944F2006DCB23 /* PhotoViewController.swift */; };
+		E8842E242575DE0F004AF953 /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8842E232575DE0F004AF953 /* ReviewTableViewController.swift */; };
+		E8842E262576A66F004AF953 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8842E252576A66F004AF953 /* Review.swift */; };
+		E8842E282576A987004AF953 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8842E272576A987004AF953 /* Reviews.swift */; };
+		E8842E2A2576B5AE004AF953 /* CourseReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8842E292576B5AE004AF953 /* CourseReviewTableViewCell.swift */; };
+		E8B6C645257A9D4100667F7D /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B6C644257A9D4100667F7D /* Photo.swift */; };
+		E8B6C647257AC8B000667F7D /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B6C646257AC8B000667F7D /* Photos.swift */; };
+		E8B6C649257AC96900667F7D /* BrowsePhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B6C648257AC96900667F7D /* BrowsePhotosViewController.swift */; };
+		E8B6C64B257ACBFB00667F7D /* CoursePhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B6C64A257ACBFB00667F7D /* CoursePhotoCollectionViewCell.swift */; };
 		E8BE1E2D25754BD00052CE29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BE1E2C25754BD00052CE29 /* AppDelegate.swift */; };
 		E8BE1E2F25754BD00052CE29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BE1E2E25754BD00052CE29 /* SceneDelegate.swift */; };
 		E8BE1E3125754BD00052CE29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BE1E3025754BD00052CE29 /* ViewController.swift */; };
 		E8BE1E3425754BD00052CE29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8BE1E3225754BD00052CE29 /* Main.storyboard */; };
 		E8BE1E3625754BD30052CE29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8BE1E3525754BD30052CE29 /* Assets.xcassets */; };
 		E8BE1E3925754BD30052CE29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8BE1E3725754BD30052CE29 /* LaunchScreen.storyboard */; };
+		E8BE1E4125754DF80052CE29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8BE1E4025754DF80052CE29 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A48CDFFF42555E642EDA1D2 /* Pods-FairwayFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FairwayFinder.release.xcconfig"; path = "Target Support Files/Pods-FairwayFinder/Pods-FairwayFinder.release.xcconfig"; sourceTree = "<group>"; };
+		D7822B6779FC963C82B1BEB5 /* Pods_FairwayFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FairwayFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82D368C2577001D00230B62 /* UIView+addBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+addBorder.swift"; sourceTree = "<group>"; };
+		E82D368E2577008200230B62 /* UIBarButtonItem+hide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+hide.swift"; sourceTree = "<group>"; };
+		E84412DB2575739B004BC427 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
+		E84412DD257575E4004BC427 /* CourseReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseReviewsViewController.swift; sourceTree = "<group>"; };
+		E84412DF25758075004BC427 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		E84412E125758CB5004BC427 /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		E84412E325758F3C004BC427 /* Courses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
+		E84412E525759617004BC427 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		E8678210257944F2006DCB23 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		E8842E232575DE0F004AF953 /* ReviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
+		E8842E252576A66F004AF953 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		E8842E272576A987004AF953 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		E8842E292576B5AE004AF953 /* CourseReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseReviewTableViewCell.swift; sourceTree = "<group>"; };
+		E8B6C644257A9D4100667F7D /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		E8B6C646257AC8B000667F7D /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		E8B6C648257AC96900667F7D /* BrowsePhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsePhotosViewController.swift; sourceTree = "<group>"; };
+		E8B6C64A257ACBFB00667F7D /* CoursePhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursePhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		E8BE1E2925754BD00052CE29 /* FairwayFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FairwayFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BE1E2C25754BD00052CE29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8BE1E2E25754BD00052CE29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +62,8 @@
 		E8BE1E3525754BD30052CE29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8BE1E3825754BD30052CE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8BE1E3A25754BD30052CE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8BE1E4025754DF80052CE29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FDB4EED666C2167105F23BFF /* Pods-FairwayFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FairwayFinder.debug.xcconfig"; path = "Target Support Files/Pods-FairwayFinder/Pods-FairwayFinder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E03DAA4E79DC9818AED4FAFF /* Pods_FairwayFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		761C7305875A15E3C4170A20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7822B6779FC963C82B1BEB5 /* Pods_FairwayFinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E8BE1E2025754BD00052CE29 = {
 			isa = PBXGroup;
 			children = (
 				E8BE1E2B25754BD00052CE29 /* FairwayFinder */,
 				E8BE1E2A25754BD00052CE29 /* Products */,
+				FAD6233B2F135F8AFF359A1D /* Pods */,
+				761C7305875A15E3C4170A20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +109,40 @@
 			children = (
 				E8BE1E2C25754BD00052CE29 /* AppDelegate.swift */,
 				E8BE1E2E25754BD00052CE29 /* SceneDelegate.swift */,
+				E84412DF25758075004BC427 /* Course.swift */,
+				E84412E325758F3C004BC427 /* Courses.swift */,
+				E8842E252576A66F004AF953 /* Review.swift */,
+				E8842E272576A987004AF953 /* Reviews.swift */,
+				E8B6C644257A9D4100667F7D /* Photo.swift */,
+				E8B6C646257AC8B000667F7D /* Photos.swift */,
 				E8BE1E3025754BD00052CE29 /* ViewController.swift */,
+				E84412DD257575E4004BC427 /* CourseReviewsViewController.swift */,
+				E8B6C64A257ACBFB00667F7D /* CoursePhotoCollectionViewCell.swift */,
+				E8842E292576B5AE004AF953 /* CourseReviewTableViewCell.swift */,
+				E8842E232575DE0F004AF953 /* ReviewTableViewController.swift */,
+				E8678210257944F2006DCB23 /* PhotoViewController.swift */,
+				E8B6C648257AC96900667F7D /* BrowsePhotosViewController.swift */,
+				E84412DB2575739B004BC427 /* CourseTableViewCell.swift */,
 				E8BE1E3225754BD00052CE29 /* Main.storyboard */,
 				E8BE1E3525754BD30052CE29 /* Assets.xcassets */,
 				E8BE1E3725754BD30052CE29 /* LaunchScreen.storyboard */,
 				E8BE1E3A25754BD30052CE29 /* Info.plist */,
+				E8BE1E4025754DF80052CE29 /* GoogleService-Info.plist */,
+				E84412E125758CB5004BC427 /* UIViewController+alert.swift */,
+				E82D368C2577001D00230B62 /* UIView+addBorder.swift */,
+				E82D368E2577008200230B62 /* UIBarButtonItem+hide.swift */,
+				E84412E525759617004BC427 /* APIKeys.swift */,
 			);
 			path = FairwayFinder;
+			sourceTree = "<group>";
+		};
+		FAD6233B2F135F8AFF359A1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDB4EED666C2167105F23BFF /* Pods-FairwayFinder.debug.xcconfig */,
+				2A48CDFFF42555E642EDA1D2 /* Pods-FairwayFinder.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8BE1E3D25754BD30052CE29 /* Build configuration list for PBXNativeTarget "FairwayFinder" */;
 			buildPhases = (
+				65EF6523EFA3606C8046E53D /* [CP] Check Pods Manifest.lock */,
 				E8BE1E2525754BD00052CE29 /* Sources */,
 				E8BE1E2625754BD00052CE29 /* Frameworks */,
 				E8BE1E2725754BD00052CE29 /* Resources */,
+				B703E020C0DFD250851666BC /* [CP] Embed Pods Frameworks */,
+				A3D75DA8B53F177B1BF1F5DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8BE1E3925754BD30052CE29 /* LaunchScreen.storyboard in Resources */,
+				E8BE1E4125754DF80052CE29 /* GoogleService-Info.plist in Resources */,
 				E8BE1E3625754BD30052CE29 /* Assets.xcassets in Resources */,
 				E8BE1E3425754BD00052CE29 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +215,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65EF6523EFA3606C8046E53D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FairwayFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D75DA8B53F177B1BF1F5DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FairwayFinder/Pods-FairwayFinder-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FairwayFinder/Pods-FairwayFinder-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FairwayFinder/Pods-FairwayFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B703E020C0DFD250851666BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FairwayFinder/Pods-FairwayFinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FairwayFinder/Pods-FairwayFinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FairwayFinder/Pods-FairwayFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E8BE1E2525754BD00052CE29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8B6C647257AC8B000667F7D /* Photos.swift in Sources */,
+				E84412E025758075004BC427 /* Course.swift in Sources */,
+				E84412DC2575739B004BC427 /* CourseTableViewCell.swift in Sources */,
+				E82D368F2577008200230B62 /* UIBarButtonItem+hide.swift in Sources */,
 				E8BE1E3125754BD00052CE29 /* ViewController.swift in Sources */,
+				E8B6C649257AC96900667F7D /* BrowsePhotosViewController.swift in Sources */,
+				E84412E625759617004BC427 /* APIKeys.swift in Sources */,
+				E84412E225758CB5004BC427 /* UIViewController+alert.swift in Sources */,
+				E8842E2A2576B5AE004AF953 /* CourseReviewTableViewCell.swift in Sources */,
+				E84412E425758F3C004BC427 /* Courses.swift in Sources */,
+				E8842E262576A66F004AF953 /* Review.swift in Sources */,
+				E82D368D2577001D00230B62 /* UIView+addBorder.swift in Sources */,
+				E8B6C64B257ACBFB00667F7D /* CoursePhotoCollectionViewCell.swift in Sources */,
+				E8B6C645257A9D4100667F7D /* Photo.swift in Sources */,
 				E8BE1E2D25754BD00052CE29 /* AppDelegate.swift in Sources */,
+				E8842E242575DE0F004AF953 /* ReviewTableViewController.swift in Sources */,
+				E8842E282576A987004AF953 /* Reviews.swift in Sources */,
+				E8678211257944F2006DCB23 /* PhotoViewController.swift in Sources */,
+				E84412DE257575E4004BC427 /* CourseReviewsViewController.swift in Sources */,
 				E8BE1E2F25754BD00052CE29 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +440,7 @@
 		};
 		E8BE1E3E25754BD30052CE29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB4EED666C2167105F23BFF /* Pods-FairwayFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +459,7 @@
 		};
 		E8BE1E3F25754BD30052CE29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A48CDFFF42555E642EDA1D2 /* Pods-FairwayFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
